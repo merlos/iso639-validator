@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 entry}
   spec.description   = %q{Validates that a value is either an alfa-2
 code, alfa-3 code, French name or English name}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/merlos/iso639-validator.git"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
