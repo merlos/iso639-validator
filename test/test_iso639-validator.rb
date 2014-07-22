@@ -114,10 +114,9 @@ module Iso639
         assert (not t.valid?) 
       end
       
-      def test_a_code2_requiring_length3_presence
-        t = TestCode3.new(code:'esp')
+      def test_a_code3_requiring_length3_presence
+        t = TestCode3.new(code:'spa')
         assert t.valid? #it's ok is empty
-        assert (not t.valid?) 
       end
       
       

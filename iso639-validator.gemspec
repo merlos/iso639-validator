@@ -20,7 +20,7 @@ code, alfa-3 code, French name or English name}
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "iso-639"
+  spec.add_dependency "iso-639", "~> 0.2.5"
   
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"

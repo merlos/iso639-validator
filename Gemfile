@@ -5,7 +5,7 @@ source 'https://rubygems.org'
 #   gem "activesupport", ">= 2.3.5"
 
 gem "activerecord", ">=0"
-gem 'iso-639', :git=>'https://github.com/merlos/iso-639.git'
+gem 'iso-639', '~> 0.2.5'
 
 
 # Add dependencies to develop your gem here.

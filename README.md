@@ -29,7 +29,7 @@ In your model:
       # validate alfa-2 codes like 'es', 'en' 
       validates :alfa2_code, iso639Code: true, length: { is: 2 } 
       
-      # validate alfa-3 codes like 'esp', 'eng' only if present.
+      # validate alfa-3 codes like 'spa', 'eng' only if present.
       validates :alfa3_code, iso639Code: true, length: { is: 3 }, if: "alfa3_code.present?" 
       
       # validate a French name like 'français'
